@@ -1,0 +1,4 @@
+Koncept:
+1. Zbieranie danych z czujników przy pomocy Azure IoT Hub
+2. Wykorzystanie Azure Machine Learning do nauczenia modelu przewidywania wartości
+3. Użycie modelu w Azure Stream Analysis. Jeśli dane będą różniły się od przewidywań, mamy prawdopodobnie doczynienia z anomalią (albo złym wytrenowaniem modelu).
