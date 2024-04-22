@@ -1,4 +1,11 @@
 Koncept:
-1. Zbieranie danych z czujników przy pomocy Azure IoT Hub
-2. Wykorzystanie Azure Machine Learning do nauczenia modelu przewidywania wartości
+1. Zbieranie danych z czujników przy pomocy Azure IoT Hub, zarządzanie danymi przy pomocy Data Factory
+2. Wykorzystanie Azure Machine Learning do nauczenia modelu przewidywania wartości.
 3. Użycie modelu w Azure Stream Analysis. Jeśli dane będą różniły się od przewidywań, mamy prawdopodobnie doczynienia z anomalią (albo złym wytrenowaniem modelu).
+
+Przydatne narzędzia:
+1. Azure Machine Learning: Usługa umożliwiająca tworzenie, szkolenie i wdrażanie modeli uczenia maszynowego.
+2. Azure Stream Analytics: Służy do analizy strumieni danych w czasie rzeczywistym. Można go wykorzystać do przetwarzania danych z linii produkcyjnej w czasie rzeczywistym w celu wykrycia anomalii.
+3. Azure Data Factory: Usługa do zarządzania i integracji danymi w chmurze i na miejscu. Można jej użyć do zautomatyzowania procesów ETL, czyli ekstrakcji, transformacji i ładowania danych, co jest kluczowe w przypadku analizy danych w celu wykrywania anomalii.
+4. Azure Databricks: Platforma analityczna oparta na Apache Spark, umożliwiająca przetwarzanie dużych zbiorów danych. Można jej użyć do przetwarzania i analizy danych IoT, co może być przydatne przy wykrywaniu anomalii.
+5. Azure Synapse Analytics: Platforma analityczna łącząca przetwarzanie danych analitycznych i transakcyjnych. Można jej użyć do analizy dużych zbiorów danych z różnych źródeł, co może być pomocne przy wykrywaniu anomalii w danych produkcyjnych.

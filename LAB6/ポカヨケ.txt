@@ -1,0 +1,11 @@
+Poka Yoke
+
+1. Sprawdzenie, czy dane wyjśiowe nie mają pustych fragmentów lub niepoprawnych wartości z zepsutych czujników, oraz czy są w odpowiednim formacie.
+
+2. Należy uwzględnić wsztystkie możliwe błędy i zapewnić ich odpowiednią obsługę, oraz zrobić unit testy, żeby sprawdzić czy wszystkie funkcje prawidłowo działają.
+
+3. Należy skonfigurować system powiadomień, który informuje użytkowników o wystąpieniu błędów lub problemów.
+
+4. Należy stosować operacje transakcyjne, żeby w razie niepowodzenia nie popsuć danych.
+
+5. Automatyczne przywracanie stanu: W sytuacji wystąpienia błędu podczas przetwarzania danych, system powinien mieć wbudowane mechanizmy automatycznego przywracania stanu do poprzedniego punktu kontrolnego. 
